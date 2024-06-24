@@ -1,33 +1,33 @@
 <script>
-// export default {
-//   data() {
-//     return {
-//       conunterIncrease: 1,
-//       counter: 1
-//     }
-//   },
-//   methods: {
-//     increaseCounter() {
-//       this.counter += this.conunterIncrease;
-//     }
-//   },
-// }
+export default {
+  data() {
+    return {
+      conunterIncrease: 1,
+      counter: 1
+    }
+  },
+  methods: {
+    increaseCounter() {
+      this.counter += this.conunterIncrease;
+    }
+  },
+}
 </script>
 
 <template>
   <main>
-    <!-- <h1>
+    <h1>
       {{ counter }}
     </h1>
     <div class="from_group">
       <input v-model="counterIncrease"/>
       <button @click="increaseCounter">Zwiększ o podaną wartość</button>
-    </div> -->
+    </div>
   </main>
 </template>
 
 <style>
-  /** {
+  {
     padding: 0;
     margin: 0;
     color: white;
@@ -55,5 +55,5 @@
   button {
     background: lime;
     color: #1e1e1e;
-  }*/
+  }
 </style>

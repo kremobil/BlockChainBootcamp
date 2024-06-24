@@ -1,27 +1,59 @@
-<script setup>
-import { ref } from 'vue';
-let greeting = ref('');
-
-async function handleSubmit(e) {
-  e.preventDefault();
-  const target = e.target;
-  const name = target.querySelector('#name').value;
-  //await first_project_backend.greet(name).then((response) => {
-    //greeting.value = response;
-  //});
-}
+<script>
+// export default {
+//   data() {
+//     return {
+//       conunterIncrease: 1,
+//       counter: 1
+//     }
+//   },
+//   methods: {
+//     increaseCounter() {
+//       this.counter += this.conunterIncrease;
+//     }
+//   },
+// }
 </script>
 
 <template>
   <main>
-    <img src="/logo2.svg" alt="DFINITY logo" />
-    <br />
-    <br />
-    <form action="#" @submit="handleSubmit">
-      <label for="name">Enter your name: &nbsp;</label>
-      <input id="name" alt="Name" type="text" />
-      <button type="submit">Click Me!</button>
-    </form>
-    <section id="greeting">{{ greeting }}</section>
+    <!-- <h1>
+      {{ counter }}
+    </h1>
+    <div class="from_group">
+      <input v-model="counterIncrease"/>
+      <button @click="increaseCounter">Zwiększ o podaną wartość</button>
+    </div> -->
   </main>
 </template>
+
+<style>
+  /** {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "Tahoma" sans-serif;
+  }
+  h1 {
+    font-size: 10rem;
+  }
+  main {
+    background: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
+  .from_group {
+    display: flex;
+    gap: 1rem;
+  }
+  button, input {
+    padding: 1rem;
+    border: 2px solid lime;
+  }
+  button {
+    background: lime;
+    color: #1e1e1e;
+  }*/
+</style>
